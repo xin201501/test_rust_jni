@@ -43,3 +43,6 @@ cxx-lib/.cache
 rust-lib/target/
 rust-lib/.cargo
 rust-lib/Cargo.lock
+
+#output bin folder
+bin/

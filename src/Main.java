@@ -23,7 +23,7 @@ public class Main {
     static {
         // loads rust and c++ dynamic libraries
         System.loadLibrary("rust_lib");
-        System.loadLibrary("c_lib");
+        System.loadLibrary("cxx_lib");
     }
 
     public static void main(String[] args) {
