@@ -6,6 +6,8 @@
 ## 如何运行
 
 ```bash
+# 首先根据JDK版本和位置更改cxx-lib中的CMakelists.txt文件，
+# 需要更改的位置已经在该文件中说明。
 make run
 ```
 
