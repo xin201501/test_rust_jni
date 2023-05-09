@@ -1,8 +1,11 @@
+// Some comments in this file are provided by the IntelliJ IDEA IDE and GitHub Copilot.
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     /**
      * This is a `blake3` hash function implemented in Rust.
+     *
      * @param input the string to be hashed
      * @return hash result,in string format
      */
@@ -11,10 +14,12 @@ public class Main {
     /**
      * This is a `test_c_function` function implemented in C++.
      * It only transfers the string to C++ and returns the result back.
+     *
      * @param input the string to be processed
      * @return the result of the string processed by C++
      */
     private static native String test_c_function(String input);
+
     static {
         // loads rust and c++ dynamic libraries
         System.loadLibrary("rust_lib");
@@ -38,9 +43,8 @@ public class Main {
         System.out.println("Output: " + output);
 
         System.out.println("---------next we will go to C++ world----------");
-        // give a random string,and call the c++ function,and return the result
+        // give a random string,call the c++ function,and return the result
         // another random string
-
         String input2 = "hello C++!";
         System.out.println("Input: " + input2);
         String output2 = test_c_function(input2);
