@@ -40,6 +40,6 @@ cxx-lib/.cache
 *.vscode
 
 #rust-lib folder
-#rust-lib/target/
-#rust-lib/.cargo
-#rust-lib/Cargo.lock
+rust-lib/target/
+rust-lib/.cargo
+rust-lib/Cargo.lock
