@@ -1,3 +1,4 @@
+//! Most of comments are from [jni] documentation.[https://docs.rs/jni/0.21.1/jni]
 use base64::Engine;
 // This is the interface to the JVM that we'll call the majority of our
 // methods on.
